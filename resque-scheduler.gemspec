@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov' unless RUBY_VERSION < '1.9'
 
   spec.add_runtime_dependency 'redis', '>= 3.0.0'
-  spec.add_runtime_dependency 'resque', '~> 1.25'
+  spec.add_runtime_dependency 'resque', '~> 2.0'
   spec.add_runtime_dependency 'rufus-scheduler', '~> 2.0'
 end
